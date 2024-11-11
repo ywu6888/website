@@ -1,0 +1,56 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-image: url('background.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.container {
+  text-align: center;
+}
+
+#draw-button {
+  padding: 10px 20px;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+#name-display {
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.previous-page-indicator {
+  position: fixed;
+  bottom: 10px;
+  left: 10px;
+  font-size: 24px;
+  text-decoration: none;
+}
+
+.next-page-indicator {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  font-size: 24px;
+  text-decoration: none;
+}
+
+.container h1 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.container p {
+  font-size: 20px;
+  line-height: 1.5;
+  text-align: center;
+  margin: 20px;
+}
